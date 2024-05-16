@@ -24,8 +24,7 @@ O projeto inicial já possui um serviço que busca informações de endereço a 
 4. O design do formulário deve ser agradável e intuitivo para o usuário.
 5. O código deve ser limpo, bem comentado e seguir as melhores práticas de desenvolvimento Angular.
 
-**Entrega:**
-
-O projeto deve ser entregue como um repositório Git, contendo todos os arquivos necessários para executar o aplicativo. Inclua também um README com instruções de instalação e uso, bem como quaisquer outras informações que você considere relevantes.
-
-Boa sorte!
+**como executar:**
+1. Instale as dependências: O Angular usa o npm (Node Package Manager) para gerenciar dependências, então você precisará instalar todas as dependências do projeto. Você pode fazer isso com o comando (npm install)
+2. Execute o servidor de desenvolvimento: Agora você pode iniciar o servidor de desenvolvimento do Angular com o comando ng serve. Isso irá compilar o aplicativo e iniciar o servidor.
+3. Acesse o aplicativo: Por fim, você pode acessar o aplicativo navegando até http://localhost:4200/ no seu navegador.
