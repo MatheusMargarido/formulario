@@ -1,0 +1,47 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; 
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao formulário */
+  background-color: white; /* Adiciona uma cor de fundo ao formulário */
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+div label {
+  font-weight: 600; /* Torna o texto do rótulo um pouco mais ousado */
+  color: #495057; /* Altera a cor do texto do rótulo */
+}
+
+div input {
+  padding: 10px; /* Adiciona algum preenchimento ao redor do texto dentro da entrada */
+  border-radius: 5px; /* Adiciona bordas arredondadas à entrada */
+  border: 1px solid #ced4da; /* Adiciona uma borda à entrada */
+}
+
+button {
+  align-self: center;
+  padding: 10px 20px; /* Adiciona algum preenchimento ao botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+  background-color: #007bff; /* Adiciona uma cor de fundo ao botão */
+  color: white; /* Altera a cor do texto do botão */
+  cursor: pointer; /* Muda o cursor para um ponteiro quando você passa o mouse sobre o botão */
+}
+
+button:hover {
+  background-color: #0056b3; /* Muda a cor de fundo do botão quando você passa o mouse sobre ele */
+}
